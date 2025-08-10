@@ -1,0 +1,54 @@
+{
+    "credentials": {
+    "email": "techassessment_user@gmail.com",
+    "password": "12345678",
+    "recipient_name": "test user",
+    "recipient_email": "test_user@test.com"
+    },
+
+    "home_page": [
+        {"url": "https://demowebshop.tricentis.com", "title": "Demo Web Shop"}
+    ],
+    
+    "products": [
+        {
+            "name": "14.1-inch Laptop",
+            "url": "https://demowebshop.tricentis.com/141-inch-laptop",
+            "add_to_cart_xpath": "//input[@id='add-to-cart-button-31']"
+        },
+        {
+            "name": "Computing and Internet",
+            "url": "https://demowebshop.tricentis.com/computing-and-internet",
+            "add_to_cart_xpath": "//input[@id='add-to-cart-button-13']"
+        }
+    ],
+
+    "shipping_billing_address": 
+{
+        "first_name": "Tester",
+        "first_name_field_xpath": "//input[@id='BillingNewAddress_FirstName']", 
+        "last_name": "User",
+        "last_name_field_xpath": "//input[@id='BillingNewAddress_LastName']",
+        "email": "user@nothing.com",
+        "email_field_xpath": "//input[@id='BillingNewAddress_Email']",
+        "country_dropdown_id": "BillingNewAddress_CountryId",
+        "country": "P",
+        "state_dropdown_id": "BillingNewAddress_StateProvinceId",
+        "city": "Test City",
+        "city_field_xpath": "//input[@id='BillingNewAddress_City']",    
+        "address1": "123 Test Street",
+        "address1_field_xpath": "//input[@id='BillingNewAddress_Address1']",
+        "zip_code": "12345",
+        "zip_code_field_xpath": "//input[@id='BillingNewAddress_ZipPostalCode']",
+        "phone_number": "1234567890",
+        "phone_number_field_xpath": "//input[@id='BillingNewAddress_PhoneNumber']",
+        "shipping_address_dropdown_xpath": "//select[@id='shipping-address-select']",
+        "shipping_method_radio_xpath": "//input[@id='shippingoption_1']",
+        "shipping_method_continue_xpath": "//input[@class='button-1 shipping-method-next-step-button']",
+        "payment_method_radio_xpath": "//input[@id='paymentmethod_0']",
+        "payment_method_continue_xpath": "//input[@class='button-1 payment-method-next-step-button']", 
+        "payment_info_continue_xpath": "//input[@class='button-1 payment-info-next-step-button']"
+       
+}
+
+}
