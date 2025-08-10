@@ -1,0 +1,77 @@
+2025-08-10 07:14:17 - [INFO] - [tests.conftest] - Setting up WebDriver
+2025-08-10 07:14:20 - [INFO] - [utils.json_reader] - Reading test data from C:\Users\mahum\Desktop\Automation\Web_Automation\End_to_End_Checkout_Automation\test_data.json
+2025-08-10 07:14:23 - [INFO] - [tests.main] - Navigating to login page
+2025-08-10 07:14:23 - [INFO] - [pages.login_page] - Entering email: techassessment_user@gmail.com
+2025-08-10 07:14:23 - [INFO] - [pages.login_page] - Entering password
+2025-08-10 07:14:23 - [INFO] - [pages.login_page] - Clicking login button
+2025-08-10 07:14:25 - [INFO] - [tests.main] - Login successful
+2025-08-10 07:14:26 - [INFO] - [tests.main] - Item selected from homepage
+2025-08-10 07:14:28 - [INFO] - [tests.main] - Recipient information entered
+2025-08-10 07:14:28 - [INFO] - [tests.main] - Item added to cart successfully
+2025-08-10 07:14:28 - [INFO] - [utils.json_reader] - Reading test data from C:\Users\mahum\Desktop\Automation\Web_Automation\End_to_End_Checkout_Automation\test_data.json
+2025-08-10 07:14:28 - [INFO] - [tests.main] - Processing product: 14.1-inch Laptop
+2025-08-10 07:14:28 - [INFO] - [pages.search_and_add_multiple_products] - Searching for product: 14.1-inch Laptop
+2025-08-10 07:14:28 - [INFO] - [pages.search_and_add_multiple_products] - Navigating to homepage
+2025-08-10 07:14:29 - [INFO] - [pages.search_and_add_multiple_products] - Homepage loaded successfully
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Selected 14.1-inch Laptop from autocomplete
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Navigated to product page for: 14.1-inch Laptop
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Scrolling to view the page
+2025-08-10 07:14:32 - [INFO] - [tests.main] - Scrolling to Add to Cart button for product: 14.1-inch Laptop
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Attempting to add product to cart with XPath: //input[@id='add-to-cart-button-31']
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Successfully clicked Add to Cart button
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Product added to cart successfully
+2025-08-10 07:14:32 - [INFO] - [tests.main] - Product '14.1-inch Laptop' added to cart
+2025-08-10 07:14:32 - [INFO] - [tests.main] - Processing product: Computing and Internet
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Searching for product: Computing and Internet
+2025-08-10 07:14:32 - [INFO] - [pages.search_and_add_multiple_products] - Navigating to homepage
+2025-08-10 07:14:33 - [INFO] - [pages.search_and_add_multiple_products] - Homepage loaded successfully
+2025-08-10 07:14:36 - [INFO] - [pages.search_and_add_multiple_products] - Selected Computing and Internet from autocomplete
+2025-08-10 07:14:36 - [INFO] - [pages.search_and_add_multiple_products] - Navigated to product page for: Computing and Internet
+2025-08-10 07:14:36 - [INFO] - [pages.search_and_add_multiple_products] - Scrolling to view the page
+2025-08-10 07:14:36 - [INFO] - [tests.main] - Scrolling to Add to Cart button for product: Computing and Internet
+2025-08-10 07:14:36 - [INFO] - [pages.search_and_add_multiple_products] - Attempting to add product to cart with XPath: //input[@id='add-to-cart-button-13']
+2025-08-10 07:14:36 - [INFO] - [pages.search_and_add_multiple_products] - Successfully clicked Add to Cart button
+2025-08-10 07:14:37 - [INFO] - [pages.search_and_add_multiple_products] - Product added to cart successfully
+2025-08-10 07:14:37 - [INFO] - [tests.main] - Product 'Computing and Internet' added to cart
+2025-08-10 07:14:37 - [INFO] - [tests.main] - All products processed successfully
+2025-08-10 07:14:37 - [INFO] - [pages.cart_summary_page] - Navigating to cart page
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Cart icon clicked
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Cart page loaded successfully
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Getting cart item count
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Extracting cart details
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Found item: $25 Virtual Gift Card, Qty: 1, Price: $25.0, Total: $25.0
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Found item: 14.1-inch Laptop, Qty: 1, Price: $1590.0, Total: $1590.0
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Found item: Computing and Internet, Qty: 1, Price: $10.0, Total: $10.0
+2025-08-10 07:14:38 - [INFO] - [tests.main] - Getting cart details
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Extracting cart details
+2025-08-10 07:14:38 - [INFO] - [pages.cart_summary_page] - Found item: $25 Virtual Gift Card, Qty: 1, Price: $25.0, Total: $25.0
+2025-08-10 07:14:39 - [INFO] - [pages.cart_summary_page] - Found item: 14.1-inch Laptop, Qty: 1, Price: $1590.0, Total: $1590.0
+2025-08-10 07:14:39 - [INFO] - [pages.cart_summary_page] - Found item: Computing and Internet, Qty: 1, Price: $10.0, Total: $10.0
+2025-08-10 07:14:39 - [INFO] - [pages.cart_summary_page] - Total price of items in cart: $1625.0
+2025-08-10 07:14:39 - [INFO] - [tests.main] - Cart validated successfully
+2025-08-10 07:14:39 - [INFO] - [pages.checkout_page] - Agreeing to terms of service
+2025-08-10 07:14:39 - [INFO] - [tests.main] - Agreed to terms of service
+2025-08-10 07:14:39 - [INFO] - [pages.checkout_page] - Proceed to checkout
+2025-08-10 07:14:40 - [INFO] - [tests.main] - Proceeded to checkout
+2025-08-10 07:14:40 - [INFO] - [utils.json_reader] - Reading test data from C:\Users\mahum\Desktop\Automation\Web_Automation\End_to_End_Checkout_Automation\test_data.json
+2025-08-10 07:14:40 - [INFO] - [pages.shipping_billing_address_page] - Entering billing address details
+2025-08-10 07:14:41 - [INFO] - [pages.shipping_billing_address_page] - Selected 'New Address' from billing adress book dropdown
+2025-08-10 07:14:43 - [INFO] - [pages.shipping_billing_address_page] - Billing address details entered successfully
+2025-08-10 07:14:43 - [INFO] - [pages.shipping_billing_address_page] - Entering Shipping Adress Details 
+2025-08-10 07:14:44 - [INFO] - [pages.shipping_billing_address_page] - Shipping address details entered successfully
+2025-08-10 07:14:44 - [INFO] - [pages.shipping_billing_address_page] - Selecting Shipping Method Details
+2025-08-10 07:14:45 - [INFO] - [pages.shipping_billing_address_page] - Shipping method selected successfully
+2025-08-10 07:14:45 - [INFO] - [pages.shipping_billing_address_page] - Selecting Payment Method Details
+2025-08-10 07:14:47 - [INFO] - [pages.shipping_billing_address_page] - Payment method selected successfully
+2025-08-10 07:14:47 - [INFO] - [pages.shipping_billing_address_page] - Shipping and Billing Address Details entered Successfully ! 
+2025-08-10 07:14:47 - [INFO] - [tests.main] - Successfully entered billing address
+2025-08-10 07:14:47 - [INFO] - [pages.submit_order_page] - Submitting Order
+2025-08-10 07:14:47 - [INFO] - [pages.submit_order_page] - Clicking confirm button to place the order
+2025-08-10 07:14:47 - [INFO] - [root] - Confirm button clicked. Waiting for Thank You page to load...
+2025-08-10 07:14:47 - [INFO] - [pages.order_completion_page] - Validating order completion page
+2025-08-10 07:14:48 - [INFO] - [pages.order_completion_page] - Success message found: Your order has been successfully processed!
+2025-08-10 07:14:49 - [INFO] - [pages.order_completion_page] - Extracted order number: 2068572
+2025-08-10 07:14:49 - [INFO] - [pages.order_completion_page] - Navigated to order details page for order number: 2068572
+2025-08-10 07:14:49 - [INFO] - [tests.main] - Order Confirmation Validated
+2025-08-10 07:14:49 - [INFO] - [tests.main] - Test Completed Successfully !
+2025-08-10 07:14:49 - [INFO] - [tests.conftest] - Tearing down WebDriver

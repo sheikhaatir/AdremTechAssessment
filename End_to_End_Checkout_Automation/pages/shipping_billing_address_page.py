@@ -144,7 +144,7 @@ class ShippingBillingAdressPage:
             payment_info_continue_button = self.wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@onclick='ConfirmOrder.save()']")))   
             payment_info_continue_button.click()
             logger.info("Payment method selected successfully")
-            logger.infor("Shipping and Billing Address Details entered Successfully ! ")
+            logger.info("Shipping and Billing Address Details entered Successfully ! ")
           
         except Exception as e:
             logger.error(f"An error occurred while entering billing address: {e}")
