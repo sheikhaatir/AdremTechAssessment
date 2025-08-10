@@ -179,6 +179,7 @@ def test_checkout_flow(driver):
             order_confirmation_page.confirm_and_validate_order()
             logger.info("Order Confirmation Validated") 
             logger.info("Test Completed Successfully !")
+    
     except Exception as e:
         logger.error("Order Confirmation Validation Failed: %s", str(e))
         screenshot_path = f"screenshots/order_confirmation_error_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"

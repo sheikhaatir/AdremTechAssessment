@@ -22,6 +22,7 @@ class OrderCompletionPage:
         try:
             success_message = self.wait.until(EC.presence_of_element_located(self.success_message))
             logger.info("Success message found: %s", success_message.text)
+            self.driver.save_screenshot('order_confirmation.png')
             assert "Your order has been successfully processed!" in success_message.text, "Success message not found"
             order_number_element = self.wait.until(EC.presence_of_element_located(self.order_number_element))
             order_number_text = order_number_element.text
