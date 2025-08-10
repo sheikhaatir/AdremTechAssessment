@@ -110,40 +110,47 @@ Web_Automation/
 
 ## ⚙ Setup Instructions 
 
-1. ### Install Python 
-- Download and Install Python 3.9+ from [Python.org](https://python.org   
+1. ## Install Python 
+- Download and Install Python 3.9+ from https://python.org   
 
-2. ### Clone Repository 
-<pre> ```bash git clone https://github.com/user/repo.git cd Web_Automation/End_to_End_Checkout_Automation ``` </pre>
+2. ## Clone Repository 
+<pre> bash git clone https://github.com/user/repo.git  </pre>
 
-3. ### Create a Virtual Environment 
-<pre> ```bash python -m venv venv ``` </pre>
+3. ## Create a Virtual Environment 
+<pre> bash python -m venv venv </pre>
 
 Activate it : 
 
-- **Windows* : 
-<pre> ```bash source .venv/Scripts/activate ``` <pre>
+- **Windows** : 
+<pre> bash source .venv/Scripts/activate  <pre>
+
 - **Mac/Linux**: 
-<pre> ```bash source .venv/bin/activate ``` </pre> 
+<pre> bash source .venv/bin/activate</pre> 
 
-4. ### Install Dependencies 
-<pre> ```bash pip install -r requirements.txt ``` </pre>
+4. ## Install Dependencies 
 
-5. ### Download ChromeDriver 
-- Download ChromeDriver from [ChromeDriver.org](https://chromedriver.org/downloads 
+<pre>bash pip install -r requirements.txt</pre>
+
+5. ## Download ChromeDriver 
+- Download ChromeDriver from https://chromedriver.org/downloads 
 - Ensure it's added to your **system PATH** 
+
+## Install Pytest Allure 
+<pre>pip install pytest-allure
 
 6. ### Configure Test Data (Optional)
 Update `test_data.json`: 
-<pre> ``` json {"email": "your_email.com", "password": "your_password"} ``` </pre>
+<pre>json {"email": "your_email.com", "password": "your_password"} </pre>
 
-7. ### Execute Code 
+7. ## Execute Code 
 Run the automation test: 
- <pre> ``` bash pytest tests/main.py ``` </pre>
+ <pre>bash pytest tests/main.py </pre>
 
 ## 📊 Test Reporting : 
  Generate an **Alure Report**
- <pre> ``` bash allure serve allure-results ``` </pre>
+ <pre> bash allure serve allure-results  </pre>
+ 
+---
 
 ## 📌 Assumptions 
 - The user has manually created a new test account and updated `test_data.json` with valid credentials **OR** you can use credentials already provided in the file. 
