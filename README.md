@@ -136,7 +136,7 @@ Activate it :
 - Ensure it's added to your **system PATH** 
 
 ## Install Pytest Allure 
-<pre>pip install pytest-allure
+<pre>pip install pytest-allure </pre>
 
 6. ### Configure Test Data (Optional)
 Update `test_data.json`: 
