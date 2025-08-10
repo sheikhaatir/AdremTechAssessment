@@ -122,7 +122,7 @@ Web_Automation/
 Activate it : 
 
 - **Windows** : 
-<pre> bash source .venv/Scripts/activate  <pre>
+<pre> bash source .venv/Scripts/activate</pre>
 
 - **Mac/Linux**: 
 <pre> bash source .venv/bin/activate</pre> 
@@ -149,7 +149,7 @@ Run the automation test:
 ## 📊 Test Reporting : 
  Generate an **Alure Report**
  <pre> bash allure serve allure-results  </pre>
- 
+
 ---
 
 ## 📌 Assumptions 
